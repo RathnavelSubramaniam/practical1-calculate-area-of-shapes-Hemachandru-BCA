@@ -71,14 +71,14 @@ public class practical1 {
 
         Trapezoid trapezoid = new practical1().new Trapezoid(p1, p2, p3, p4);
         double trapezoidArea = new practical1().calculateArea(trapezoid);
-        System.out.println("Area of the trapezoid=" + trapezoidArea);      
+        System.out.println("Area of trapezoid=" + trapezoidArea);      
         Square square = new practical1().new Square(p1, 3);
 
         Rectangle rectangle = new practical1().new Rectangle(p1, p2, p3, p4);
         double rectangleArea = rectangle.calculateArea();
-        System.out.println("Area of the rectangle=" + rectangleArea);
+        System.out.println("Area of rectangle=" + rectangleArea);
 
         double squareArea = square.calculateArea();
-        System.out.println("Area of the square=" + squareArea);
+        System.out.println("Area of square=" + squareArea);
     }
 }
