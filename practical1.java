@@ -52,10 +52,11 @@ public class practical1 {
     }
 
     class Square extends Rectangle{
-            double sideLength;
-            public Square(point p1, double sideLength){
-                this.sideLength = sideLength;   
+               double sideLength;
+               public Square(point p1, double sideLength){
                 super(p1, new point(p1.getX() + sideLength, p1.getY()), new point(p1.getX() + sideLength, p1.getY() + sideLength), new point(p1.getX(), p1.getY() + sideLength));
+                this.sideLength = sideLength;   
+ 
             }
             public double calculateArea(){
                 return sideLength * sideLength;
